@@ -1,10 +1,29 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  display:flex;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.unique-button{
+  outline-color: black;
+  color:black;
+  background-color: gray;
+    
+}
+.unique-card{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  max-height: 50px;
+  min-height: 45px;
+  max-width: 80px;
+  min-width: 40px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
